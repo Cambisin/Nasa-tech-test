@@ -1,10 +1,16 @@
-.app {
+.App {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.nasa-logo {
+.logo {
   margin: auto;
-  width: 500px;
-  height: 300px;
+  width: 40%;
+}
+
+@media only screen and (max-width: 750px) {
+  .logo {
+      width: 50%;
+  }
 }
